@@ -1,0 +1,18 @@
+{
+  "name": "pocatek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "ipaddr.js": "^2.0.1",
+    "server-static": "^2.0.5",
+    "socket.io": "^4.1.2"
+  }
+}

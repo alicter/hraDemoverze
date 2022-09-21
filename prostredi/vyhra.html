@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs" xmlns="http://www.w3.org/1999/xhtml"></html>
+    <head>
+        <meta charset="utf8">
+    <title>INTRO</title>
+    </head>
+    <body style="background-color:black; text-align:center; overflow: hidden;" > 
+        
+        <h3 style="color: white; font-family:Arial, Helvetica, sans-serif">Pro návrat do menu stiskni libovolnou klávesu </h3>
+        <video id="vid" width="100%" height="100%" autoplay>
+            <source src="videa/vyhra.webm" type="video/webm">
+            <source src="videa/vyhra.mp4" type="video/mp4">
+            Obsah pro prohlížeče nepodporující tag video.
+        </video>
+       
+     
+    </body>
+    <script>
+      
+    
+    
+        var sup = 0;
+        function konec () {
+            window.location = '/menu';
+        };
+        document.body.onkeypress= function () {konec();} ;
+        document.body.onclick = function () {
+            if (sup == 0){
+                document.getElementById('vid').play();
+                sup = 1;
+            }
+            else {konec(); }                        
+    } ;
+        
+    </script>
+    </html>
+    

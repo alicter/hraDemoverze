@@ -1,0 +1,44 @@
+* {
+ font-family: 'Roboto', sans-serif;;
+}
+#dialogy_panelA {
+background : black;
+}
+button {
+background : transparent;
+color: white;
+}
+#dialogy_panelB {
+    background : black;
+    }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #7c7c7c5d; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+body {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;   
+    cursor: url('obrazky/specialni/cursor.cur'), auto;
+    border: none;
+    overflow: hidden;
+    background-color: black;
+
+      touch-action: none;
+    
+}
