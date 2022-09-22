@@ -4,4 +4,5 @@ Najděte Kámen Mudrců na zamrzlém jezeře!
 Je zde využito hledání cesty a generátor bludiště.
 Díky...
 
-![image](https://user-images.githubusercontent.com/85372451/191652071-b3dd7b5a-1eca-401d-9191-b0f24c68970f.png)
+
+![image](https://user-images.githubusercontent.com/85372451/191652279-ec48b7e7-62d4-4d9d-9a39-977de29aa285.png)
