@@ -2,6 +2,7 @@
 Demoverze hry
 Najděte Kámen Mudrců na zamrzlém jezeře!
 Je zde využito hledání cesty a generátor bludiště.
+Aby jste si mohli zahrát stáhněte si soubory a spusťte v příkazovém řádku a ve správném adresáři node index.js...
 Díky...
 
 
